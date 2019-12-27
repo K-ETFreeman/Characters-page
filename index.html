@@ -17,45 +17,60 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="ava-wrapper">
-                <div class="border">
-                    <div class="ava"><img src="img/flower.jpg" alt="avatar"></div>
-                </div>
+
+            <div class="ava">
+                <div class="ava-wrapper ibg"><img src="img/flower.jpg" alt="avatar"></div>
             </div>
+
             <div class="description">
-                <div class="name">
-                    <input type="text" name="name" id="name" placeholder="Имя">
+
+                <div class="name wrapper">
+                    <label for="name">Имя: </label><input type="text" name="name" id="name" placeholder="Имя">
                 </div>
-                <div class="age sex">
-                    <input type="text" name="age" id="age" placeholder="Возраст"> 
+
+                <div class="age wrapper">
+                    <label for="age">Возраст: </label><input type="text" name="age" id="age" placeholder="Возраст">
                 </div>
-                <div class="age sex wrapper">
+
+                <div class="sex wrapper">
                     <label for="sex">Пол: </label>
                     <select name="sex" id="sex">
-                        <option value="Мужской">Мужской</option>
-                        <option value="Женский">Женский</option>
-                        <option value="Другой">Другой</option>
-                        <option value="Нет">Нет</option>
+                        <option value="Мужской">Мужской </option>
+                        <option value="Женский">Женский </option>
+                        <option value="Другой">Другой </option>
+                        <option value="Нет">Нет </option>
                     </select>
                 </div>
-                <div class="mass">
+
+                <div class="mass wrapper">
                     <label for="mass">Масса: </label><input type="text" name="mass" id="mass" placeholder="Масса">
                 </div>
+
                 <div class="height">
-                    <div class="wrapper">
-                        <label for="">Рост: </label><input type="text" placeholder="Рост"> </div>
-                    <div class="wrapper"> <label for="">Длина: </label><input type="text" placeholder="Длина"> </div>
-                    <div class="wrapper"> <label for="">Ширина: </label><input type="text" placeholder="Ширина"></div>
+                    <div class="wrapper"> <label for="">Рост:  </label><input type="text" placeholder="Рост"> </div>
+                </div>
+
+            </div>
+
+            <div class="mainmenu">
+                <div class="menu-wrapper">
+                    <div class="appearance glue"></div>
+                    <div class="button appearance" id="appearance"><span>Внешность<br>Физ. характеристики</span></div>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="character glue"></div>
+                    <div class="button character" id="character"><span>Биография и характер</span></div>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="skills glue"></div>
+                    <div class="button skills" id="skills"><span>Умения<br>Маг. характеристики</span></div>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="inventory glue"></div>
+                    <div class="button inventory" id="inventory"><span>Инвентарь</span></div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="mainmenu">
-        <div class="container">
-            <div class="button appearance-btn"><span>Внешность<br>Физические характеристики</span></div>
-            <div class="button character-btn"><span>Биография и характер</span></div>
-            <div class="button skills-btn"><span>Умения<br>Магические характеристики</span></div>
-            <div class="button inventory-btn"><span>Инвентарь</span></div>
+
         </div>
     </div>
 
