@@ -1,3 +1,24 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+  display: block;
+}
+
+:-webkit-scrollbar {
+  /* chrome based */
+  width: 0px;
+  /* ширина scrollbar'a */
+  background: transparent;
+  /* опционально */
+}
+
+html {
+  -ms-overflow-style: none;
+  /* IE 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .input-buffer {
   position: absolute;
   top: -1000px;
@@ -27,7 +48,7 @@
 body {
   font-family: Monotype Corsiva;
   background: url(../img/paper.jpg);
-  background-size: 100% auto;
+  background-size: 100vw auto;
 }
 
 body input, body select, body label, body option {
@@ -50,6 +71,7 @@ body select {
 .header {
   height: 70vh;
   padding: 8vh 10vw;
+  width: 80vw;
   margin: 0 auto;
 }
 
@@ -144,15 +166,11 @@ body select {
           justify-content: flex-start;
   position: relative;
   background: rgba(0, 0, 0, 0);
-}
-
-.header .container .mainmenu .menu-wrapper:active {
-  -webkit-transition: 5s linear;
-  transition: 5s linear;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: translate(0px, 1000px) rotate(1180deg);
-          transform: translate(0px, 1000px) rotate(1180deg);
+  /*.menu-wrapper:active{
+                transition: 5s linear;
+                transform-origin: 50% 50%;
+                transform:  translate(0px,300vh)  rotate(1180deg) ;
+            }*/
 }
 
 .header .container .mainmenu .menu-wrapper:before {
@@ -242,5 +260,14 @@ body select {
 
 .header .container .mainmenu .menu-wrapper + .menu-wrapper {
   margin-top: 2vh;
+}
+
+.maincontent {
+  height: 100vh;
+  display: none;
+}
+
+.maincontent div {
+  height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */

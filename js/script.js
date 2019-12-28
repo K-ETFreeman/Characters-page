@@ -11,4 +11,16 @@ $(document).ready(function () {
 
     ibg();
 
+    $("a").on('click',function () {
+        $('#maincontent').css('display', 'block');
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).parent().offset().top;
+            $('html').animate({ scrollTop: destination }, 
+                {
+                    duration: 1100
+                });
+
+        return false; 
+    });
+
 });
