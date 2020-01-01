@@ -4,8 +4,8 @@ $(document).ready(function () {
   
 
 
-    var pCount = [2, 2, 41, 3];
-    var urls = [ [ `false` , `false`  ], [ `false` , `false`  ], [ `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false`  ], [ `./img/Авиарум.png` , `./img/TP.jpg` , `./img/Карта.png`  ] ];
+    var pCount = [2, 2, 42, 3];
+    var urls = [ [ `false` , `false`  ], [ `false` , `false`  ], [ `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false` , `false`  ], [ `./img/Авиарум.png` , `./img/TP.jpg` , `./img/Карта.png`  ] ];
 
     var line;
     function createParas() {
@@ -402,6 +402,10 @@ WIMP-перенос может быть наложен как пассивное
 Обостряет все чувства цели, на 100% улучшает зрение, слух, обоняние и координацию движений.
 Сложность плетения: простое
 Сложность применения: 100ЕМ` , 
+` Миралум разума: слияние сознания
+Ави может попробовать слиться с разумом другого существа. Хотя, так как она - носитель Проклятой искры, тело, которое станет её новым, тут же развеется из-за проклятия Гелов. Сквозь любые магические защиты. После этого Ави слияние должно прекратиться, а Ави вновь окажется в своём ВИСП-теле. Требуется неподвижность Ави и цели. Требуется расстояние менее 1м. Между Ави и целью
+Сложность плетения: сложное
+Сложность применения: 10000ЕМ` ,
  `Авиарум
 Светящийся октаэдр, наполненный магией. Содержит в себе информацию о том, как с помощью магии убить любое обладающее какой-либо магической устойчивостью существо ростом от 50см до 20м. 
 В случае, если вы встретились с большим существом - его подобие всё равно навярняка найдётся в Авиаруме, что сообщит вам о его уязвимых местах.` , 
